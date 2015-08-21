@@ -10,7 +10,7 @@ runTest(12);
 function runTest(attempts) {
     var retryDelayMs = 10000;
     if (attempts <= 0) {
-        console.log('To many failed attempts, gave up.');
+        console.log('Too many failed attempts, gave up.');
         process.exit(1);
     }
     request.get(testUrl, function(error, response, body) {
