@@ -24,7 +24,8 @@ function runTest(attempts) {
           process.exit(0);
         }
         catch(exception) {
-          console.log('Failed attempt: ', exception, attempts, 'remaining');
+          var message = (exception) ? exception.message : exception;
+          console.log('Failed attempt: ', message, attempts, 'remaining');
           setTimeout(runTest, retryDelayMs, attempts - 1);
         }
       }
