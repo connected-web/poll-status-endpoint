@@ -2,7 +2,7 @@ var request = require('request');
 var assert = require('assert');
 
 var testUrl = process.argv[2] || 'No url set';
-var expectedStatusBody = 'Status 200 OK';
+var expectedStatusBody = process.argv[3] || 'Status 200 OK';
 
 // Try for 2 minutes, every 10 seconds, to see if server has booted up
 runTest(12);
