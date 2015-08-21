@@ -4,7 +4,7 @@
   "description": "Test if a status endpoint is working by polling it every 10 seconds for 2 minutes.",
   "main": "run.js",
   "scripts": {
-    "test": "node run.js \"http://url-to-check\" \"Expected Body\""
+    "test": "node run.js \"http://www.google.com/status\" \"Expected Body\""
   },
   "repository": {
     "type": "git",
