@@ -1,0 +1,25 @@
+{
+  "name": "poll-status-endpoint",
+  "version": "1.0.0",
+  "description": "Test if a status endpoint is working by polling it every 10 seconds for 2 minutes.",
+  "main": "run.js",
+  "scripts": {
+    "test": "node run.js \"http://url-to-check\" \"Expected Body\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connected-web/poll-status-endpoint.git"
+  },
+  "keywords": [
+    "node",
+    "poll",
+    "status",
+    "endpoint"
+  ],
+  "author": "John Beech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connected-web/poll-status-endpoint/issues"
+  },
+  "homepage": "https://github.com/connected-web/poll-status-endpoint#readme"
+}
