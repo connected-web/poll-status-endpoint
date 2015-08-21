@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/connected-web/poll-status-endpoint/issues"
   },
-  "homepage": "https://github.com/connected-web/poll-status-endpoint#readme"
+  "homepage": "https://github.com/connected-web/poll-status-endpoint#readme",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "request": "^2.61.0"
+  }
 }
