@@ -4,7 +4,7 @@
   "description": "Test if a status endpoint is working by polling it every 10 seconds for 2 minutes.",
   "main": "run.js",
   "scripts": {
-    "test": "node run.js \"http://www.example.com\" \"<h1>Example Domains</h1>\""
+    "start": "node run.js \"http://www.example.com\" \"<h1>Example Domains</h1>\""
   },
   "repository": {
     "type": "git",
